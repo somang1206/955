@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>955</title>
+
+    <!--meta-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+      
+      <!--bootstrap-->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+      
+      <!--css-->
+	    <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/moblie.css">
+      
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+      <!--js-->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+      
+    <!--favicon--->
+      <link href="favicon.ico" rel="icon">
+      <link href="favicon.ico" rel="apple-touch-icon">
+
+
+  </head>
+
+
+
+  <body>
+
+
+    <header>
+
+      <div class="hd_all">
+
+        <hgroup>
+
+          <a href="index.html"><h1><img src="img/h_logo.png" alt="logo"></h1></a>
+
+        </hgroup>
+
+
+        <nav class="pc_menu">
+          <ul>
+
+            <li><a href="business.html">Business</a></li>
+            <li><a href="client.html">Client</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </nav>
+
+
+        <!--반응형-->
+
+        <div class="m_menu_button">
+
+          <a href="#" class="menu-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+  
+        </div>
+
+
+          <!--반응형 js-->
+       <script type="text/javascript">
+
+        $(function () {
+          $(".menu-trigger").click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('active-' + 1);
+          });
+        });
+
+      </script>
+
+        <nav class="m_menu">
+
+          <ul>
+
+            <li><a href="business.html">Business</a></li>
+            <li><a href="client.html">Client</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+
+        </nav>
+
+             <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".m_menu_button").click(function () {
+            $(".m_menu").animate({ height: "toggle" }, 250);
+          });
+        });
+
+      </script>
+
+      </div>
+
+    </header>
+
+
+    <main>
+
+
+      <section id="artist">
+        <div class="artist_wrap container">
+          <h4>Artist</h4>
+
+          <div class="artist_content">
+            
+            <a href="./sub/sub_hyerinKim.html">
+              <div class="item artist_cont_hyerin">
+                <div class="artist_cont_img"><img src="img/sub_artist_김혜린메인.png" alt=""></div>
+                <div class="artist_cont_txt"><h5>김혜린</h5></div>
+              </div>
+            </a>
+
+            <a href="./sub/sub_memil.html">       
+              <div class="item artist_cont_memil">
+                <div class="artist_cont_img"><img src="img/sub_artist_메밀메인.png" alt=""></div>
+                <div class="artist_cont_txt">
+                  <h5>메밀</h5>
+                  <p>이호연</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="./sub/sub_seunghoon.html">
+              <div class="item artist_cont_seungHoon">
+                <div class="artist_cont_img"><img src="img/sub_artist_이승훈메인.png" alt=""></div>
+                <div class="artist_cont_txt">
+                  <h5>LEE SEUNG HOON</h5>
+                  <p>이승훈</p>
+                </div>
+              </div> 
+            </a>
+
+            <a href="./sub/sub_pingoghe.html">
+              <div class="item artist_cont_pingoghe">
+                <div class="artist_cont_img"><img src="img/sub_artist_핑고헤메인.png" alt=""></div>
+                <div class="artist_cont_txt">
+                  <h5>PINGOGHE</h5>
+                  <p>핑고헤</p>
+                </div>
+              </div>
+            </a>
+        
+
+            <a href="./sub/sub_kimNew.html">
+              <div class="item artist_cont_kimNew">
+                <div class="artist_cont_img"><img src="img/sub_artist_김유식메인.png" alt=""></div>
+                <div class="artist_cont_txt">
+                  <h5>KIMNEW</h5>
+                  <p>김유식</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="./sub/sub_gelboo.html">
+              <div class="item aritst_cont_gelboo">
+                <div class="artist_cont_img"><img src="img/sub_artist_겔부메인.png" alt=""></div>
+                <div class="artist_cont_txt">
+                  <h5>겔부</h5>
+                  <p>이부용</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="./sub/sub_yangchigi.html">
+              <div class="item artist_cont_yangchigi">
+                <div class="artist_cont_img"><img src="img/sub_artist_그림왕양치기메인.png" alt=""></div>
+                <div class="artist_cont_txt"><h5>그림왕양치기</h5></div>
+              </div>
+            </a>
+
+            <a href="./sub/sub_noljagom.html">
+              <div class="item artist_cont_nolzagom">
+                <div class="artist_cont_img"><img src="img/sub_artist_놀자곰메인.png" alt=""></div>
+                <div class="artist_cont_txt"><h5>놀자곰</h5></div>
+              </div>
+            </a>
+          
+            </div>
+
+        <!--   <div class="artist_content">
+            <div class="artist_cont_up">
+              <div class="artist_cont_up_left">
+                <div class="artist_cont_up_left_hyerin">
+                  <div class="artist_cont_up_left_img"><img src="img/sub_artist_김혜린메인.png" alt=""></div>
+                  <div class="artist_cont_up_left_txt"><h5>김혜린</h5></div>
+                </div>
+
+                <div class="artist_cont_up_left_memil">
+                  <div class="artist_cont_up_left_img"><img src="img/sub_artist_메밀메인.png" alt=""></div>
+                  <div class="artist_cont_up_left_txt">
+                    <h5>메밀</h5>
+                    <p>이호연</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="artist_cont_up_right">
+                <div class="artist_cont_up_right_seungHoon">
+                  <div class="artist_cont_up_right_img"><img src="img/sub_artist_이승훈메인.png" alt=""></div>
+                  <div class="artist_cont_up_right_txt">
+                    <h5>LEE SEUNG HOON</h5>
+                    <p>이승훈</p>
+                  </div>
+                </div>
+
+                <div class="artist_cont_up_right_pingoghe">
+                  <div class="artist_cont_up_right_img"><img src="img/sub_artist_핑고헤메인.png" alt=""></div>
+                  <div class="artist_cont_up_right_txt">
+                    <h5>PINGOGHE</h5>
+                    <p>핑고헤</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="artist_cont_down">
+              <div class="artist_cont_down_left">
+                <div class="artist_cont_down_left_kimNew">
+                  <div class="artist_cont_down_left_img"><img src="img/sub_artist_김유식메인.png" alt=""></div>
+                  <div class="artist_cont_down_left_txt">
+                    <h5>KIMNEW</h5>
+                    <p>김유식</p>
+                  </div>
+                </div>
+
+                <div class="aritst_cont_down_left_gelboo">
+                  <div class="artist_cont_down_left_img"><img src="img/sub_artist_겔부메인.png" alt=""></div>
+                  <div class="artist_cont_down_left_txt">
+                    <h5>겔부</h5>
+                    <p>이부용</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="artist_cont_down_right">
+                <div class="artist_cont_down_right_yangchigi">
+                  <div class="artist_cont_down_right_img"><img src="img/sub_artist_그림왕양치기메인.png" alt=""></div>
+                  <div class="artist_cont_down_right_txt"><h5>그림왕양치기</h5></div>
+                </div>
+
+                <div class="artist_cont_down_right_nolzagom">
+                  <div class="artist_cont_down_right_img"><img src="img/sub_artist_놀자곰메인.png" alt=""></div>
+                  <div class="artist_cont_down_right_txt"><h5>놀자곰</h5></div>
+                </div>
+              </div>
+
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+
+
+    </main>
+
+
+    <footer>
+      <div class="footer_wrap container">
+        <p>
+          Copyright 2022. 955 All Rights Reserved. <br>
+          12, Gangnam-daero 160-gil, Gangnam-gu, Seoul, Republic of Korea <br>
+          E. info@955.co.kr | 대표 : 정상민
+        </p>
+      </div>
+    </footer>
+  </body>

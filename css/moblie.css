@@ -1,0 +1,550 @@
+
+/*데탑*/
+@media screen and (max-width:1440px) {
+
+  /*header*/
+  .pc_menu{
+    width: 32%;
+  }
+
+  /*home*/
+  .video_wrap .video_wrap_contents .video_wrap_cont_left{
+    width: 35%;
+  }
+
+  .swiper-pagination{
+    right: 35px !important;
+  }
+
+
+
+  /*artist*/
+
+  #artist .artist_wrap .artist_content{
+    width: 100%;
+  }
+
+  #artist .artist_wrap .artist_content .item .artist_cont_txt{
+    bottom: -176px;
+  }
+
+
+  /*business*/
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_left {
+    width: 50%;
+  }
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_right{
+    width: 36%;
+  }
+
+
+
+  /*client*/
+
+  #client .client_wrap .client_cont_list{
+    flex-direction: column;
+    margin-bottom: 6%;
+  }
+
+  #client .client_wrap .client_cont_list .client_cont_list_title{
+    margin-bottom: 2%;
+    padding: 1% !important;
+    margin-right: 0;
+  }
+
+  #client .client_wrap .client_cont_list .client_cont_list_title.client_public{
+    border-radius: 5px;
+  }
+
+  #client .client_wrap .client_cont_list .client_cont_list_company{
+    width: 100%;
+  }
+
+  /*contact*/
+
+  #contact .contact_wrap .contact_box{
+    width: 25%;
+  }
+
+
+  /*footer*/
+
+  footer .footer_wrap p {
+    font-size: 0.9em;
+}
+
+
+}
+
+
+
+/*노트북*/
+  @media screen and (max-width:1024px) {
+
+    /*header*/
+    .pc_menu{
+      width: 35%;
+    }
+
+
+    /*home*/
+    .video_wrap .video_wrap_contents .video_wrap_cont_left{
+      width: 40%;
+    }
+
+    .swiper-pagination{
+      right: 20px !important;
+    }
+
+
+    /*artist*/
+
+    #artist .artist_wrap .artist_content{
+      grid-template-rows: repeat(2, 220px);
+    }
+
+    #artist .artist_wrap .artist_content .item .artist_cont_txt{
+      bottom: -140px;
+    }
+
+
+    /*business*/
+
+    #business .business_wrap .business_wrap_content .business_wrap_cont_left h2{
+      font-size: 3em;
+    }
+
+    #business .business_wrap .business_wrap_content .business_wrap_cont_left p{
+      font-size: 1.05em;
+    }
+
+    #business .business_wrap .business_wrap_content .business_wrap_cont_right {
+      width: 38%;
+    }
+
+    /*client*/
+
+    #client .client_wrap .client_cont_list .client_cont_list_title {
+      width: 295px;
+    }
+
+
+  /*contact*/
+
+  #contact .contact_wrap .contact_box{
+    width: 33%;
+  }
+
+  
+  #contact .contact_wrap .contact_box .contact_box_info > div > span{
+    font-size: 0.8em;
+  }
+
+  #contact .contact_wrap .contact_box .inquiry h3{
+    font-size: 1.1em;
+  }
+
+  #contact .contact_wrap .contact_box .inquiry form input, #contact .contact_wrap .contact_box .inquiry form textarea{
+    font-size: 0.8em;
+  }
+
+
+    /*footer*/
+
+    footer .footer_wrap p {
+      font-size: 0.8em;
+      font-weight: 100;
+  }
+
+  }
+
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+
+
+    /*header*/
+
+    .hd_all{
+      padding: 0 50px;
+    }
+
+    .pc_menu{
+      width: 50%;
+    }
+
+    .pc_menu ul li a{
+      font-size: 0.9em;
+    }
+
+    /*home*/
+
+   .video_wrap .video_wrap_contents .video_wrap_cont_left{
+      width: 60%;
+    }
+
+
+    .swiper-pagination{
+      right: 15px !important;
+    }
+
+
+    /*artist*/
+
+    #artist .artist_wrap .artist_content{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    #artist .artist_wrap .artist_content{
+      grid-template-rows: repeat(2, 340px);
+    }
+
+    #artist .artist_wrap .artist_content .item .artist_cont_txt{
+      bottom: -240px;
+    }
+
+
+    /*business*/
+
+    #business .business_wrap .business_wrap_content{
+      flex-direction: column;
+    }
+
+    #business .business_wrap .business_wrap_content .business_wrap_cont_left {
+      width: 100%;
+    }
+
+    #business .business_wrap .business_wrap_content .business_wrap_cont_right{
+      width: 100%;
+      margin-top: 12%;
+    }
+
+    /*client*/
+
+    #client .client_wrap .client_cont_list .client_cont_list_title{
+      width: 220px;
+      font-size: 0.9em;
+    }
+
+    #client .client_wrap .client_cont_list .client_cont_list_company div{
+      margin-right: 11px;
+      margin-bottom: 11px;
+      height: 67px;
+    }
+
+    #client .client_wrap .client_cont_list .client_cont_list_company div a img{
+      max-width: 90%;
+    }
+
+    .hecto img{
+      max-width: 45% !important;
+    }
+    .nC img{
+      max-width: 50% !important;
+      margin-top: 10px;
+    }
+
+    .channelA img{
+      max-width: 50% !important;
+      margin-top: 10px;
+    }
+
+    .lionKing img{
+      margin-top: 10px;
+    }
+
+    .uniqlo img{
+      max-width: 40% !important;
+    }
+
+    .setak img{
+      max-width: 75% !important;
+    }
+
+    .amore img{
+      max-width: 90% !important;
+    }
+
+    .hwaYo img{
+      margin-top: 8px !important;
+      max-width: 45% !important;
+    }
+    
+    .lotte img{
+      max-width: 85% !important;
+      margin-top: 20px !important;
+    }
+
+    .medikan img{
+      max-width: 80% !important;
+    }
+    
+    .manyo img{
+      max-width: 80% !important;
+    }
+    
+    .wiicare img{
+      max-width: 80% !important;
+    }
+
+    /*contact*/
+
+    #contact .contact_wrap .contact_box{
+      width: 40%;
+    }
+
+    .contact_box_toggle{
+      height: 220px;
+    }
+
+    #contact .contact_wrap .contact_box .inquiry form #message {
+      height: 150px;
+    }
+}
+
+
+
+/*모바일*/
+
+@media screen and (max-width:767px) {
+
+ 
+  /*header*/
+
+  .pc_menu{
+    width: 50%;
+  }
+
+  .pc_menu ul li a{
+    font-size: 0.85em;
+  }
+
+  /*home*/
+
+  .video_wrap .video_wrap_contents{
+    width: 89%;
+  }
+
+  .video_wrap .video_wrap_contents .video_wrap_cont_left{
+    width: 80%;
+  }
+
+
+  .swiper-pagination{
+    right: 30px !important;
+  }
+
+    /*artist*/
+
+    #artist .artist_wrap .artist_content{
+      grid-template-rows: repeat(2, 245px);
+    }
+
+    #artist .artist_wrap .artist_content .item .artist_cont_txt{
+      bottom: -160px;
+    }
+
+
+
+    /*client*/
+
+    #client .client_wrap .client_cont_list .client_cont_list_company div {
+      width: calc(90% / 3 );
+    }
+
+    .showBox img{
+      max-width: 55% !important;
+    }
+
+    .hwaYo img{
+      max-width: 35% !important;
+    }
+    
+    .skHynix img{
+      margin-top:5px !important;
+    }
+
+    .medikan img{
+      max-width: 60% !important;
+    }
+
+    .hecto img{
+      max-width: 30% !important;
+    }
+
+    .uniqlo img{
+      max-width: 28% !important;
+    }
+
+    .wiicare img{
+      max-width: 60% !important;
+    }
+
+    #client .client_wrap h4 {
+      margin-bottom: 12%;
+    }
+
+    #client .client_wrap .client_cont_list {
+      margin-bottom: 12%;
+    }
+
+
+
+
+    /*contact*/
+
+    #contact .contact_wrap .contact_box .contact_box_info > div > h3{
+      font-size: 0.9em;
+    }
+
+    #contact .contact_wrap .contact_box .contact_box_info > div > span{
+      font-size: 0.75em;
+    }
+
+    #contact .contact_wrap .contact_box .inquiry h3{
+      font-size: 0.98em;
+    }
+
+    #contact .contact_wrap .contact_box .inquiry form input, #contact .contact_wrap .contact_box .inquiry form textarea{
+      font-size: 0.75em;
+    }
+
+
+    .contact_box_toggle{
+      height: 200px;
+    }
+
+}
+
+
+/*모바일2*/
+
+
+@media screen and (max-width:576px) {
+ 
+  /*header*/
+
+  .hd_all{
+    padding: 0 20px;
+  }
+
+  .video_wrap .video_wrap_contents .video_wrap_cont_left h2{
+    font-size: 1.1em;
+  }
+
+  .video_wrap .video_wrap_contents .video_wrap_cont_left p{
+    font-size: 0.8em;
+  }
+
+  .m_menu_button{
+  display: block;
+  right: 20px;
+  }
+
+  .pc_menu{
+  display: none;
+}
+
+
+
+/*home*/
+
+
+  .swiper-pagination{
+    bottom: 80px !important;
+    right: 15px !important;
+  }
+
+  .video_wrap .video_wrap_contents{
+    bottom: 100px;
+  }
+
+
+  /*artist*/
+
+  
+  #artist .artist_wrap .artist_content{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #artist .artist_wrap .artist_content{
+    grid-template-rows: repeat(2, 385px);
+  }
+
+  #artist .artist_wrap .artist_content .item .artist_cont_txt{
+    bottom: -285px;
+  }
+
+
+  /*business*/
+
+  #business{
+    padding: 113px 0;
+  }
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_left h1{
+    font-size: 3.8em;
+  }
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_left h1::before{
+    height: 65px;
+  }
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_left h2{
+    font-size: 2.3em;
+  }
+
+  #business .business_wrap .business_wrap_content .business_wrap_cont_left p{
+    font-size: 0.98em;
+  }
+
+
+  /*client*/
+
+  .showBox img{
+    max-width: 70% !important;
+  }
+
+
+  /*contact*/
+
+  #contact .contact_wrap .contact_box{
+    width: 70%;
+    left: 10px;
+    padding: 4%;
+  }
+
+  #contact .contact_wrap .contact_box .contact_box_info {
+    margin-bottom: 7%;
+  }
+
+    /*footer*/
+
+    footer .footer_wrap p {
+      font-size: 0.7em;
+  }
+
+}
+
+
+
+/*모바일3 갤럭시*/
+
+  @media screen and (max-width:425px) {
+
+    /*artist*/
+
+    #artist .artist_wrap .artist_content .item .artist_cont_txt{
+      bottom: -255px;
+    }
+
+
+}
+
+
+
+/*모바일4 아이폰*/
+    @media screen and (max-width:375px) {
+
+}

@@ -1,0 +1,344 @@
+#sub_artist {
+    width: 100%;
+    padding: 120px 0 100px;
+    background-color: #f8f8f8;
+}
+
+#sub_artist .sub_artist_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main{
+    width: 30%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_img img{
+    max-width: 100%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_txt{
+    width: 100%;
+    padding: 2%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_txt h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_txt span{
+    display: block;
+    color: #888888;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_txt span.realName{
+    margin-bottom: 3%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_main .sub_artist_main_txt p{
+    font-weight: lighter;
+    color: #888888;
+    
+}
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents{
+    width: 42%;
+    height: 800px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3,238px);
+    grid-auto-flow: dense;
+    gap: 18px;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents:hover{
+/*     cursor: url(../img/sub/artist_sub_img/cursor.png), auto; */
+    cursor: url(../img/sub/artist_sub_img/cursor2.png), auto;
+}
+
+.sub_artist_contents::-webkit-scrollbar {
+    display: none;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list {
+    width: 100%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list img{
+    max-width: 100%;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list4{
+    margin-top: -30px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list7{
+    margin-top: -155px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list9{
+    margin-top: -200px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents .sub_artist_cont_list10{
+    margin-top: -185px;
+}
+/*김혜린작가*/
+
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list4{
+    margin-top: -40px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list5{
+    margin-top: -170px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list7{
+    margin-top: -255px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list8{
+    margin-top: -220px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list9{
+    margin-top: 2px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.gelboo .sub_artist_cont_list10{
+    margin-top: -165px;
+}
+/*겔부작가*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list4{
+    margin-top: -2px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list6{
+    margin-top: -12px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list7{
+    margin-top: -2px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list8{
+    margin-top: -55px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list9{
+    margin-top: -80px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list10{
+    margin-top: -82px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list12{
+    margin-top: -16px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list13{
+    margin-top: -76px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.kimNew .sub_artist_cont_list15{
+    margin-top: -10px;
+}
+/*김뉴작가*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list1{
+    margin-top: -2px;
+    order: 0;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list2{
+    margin-top: -2px;
+    order: 1;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list3{
+    margin-top: -230px;
+    order: 6;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list4{
+    margin-top: -305px;
+    order: 7;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list5{
+    margin-top: 0px;
+    order: 2;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list6{
+/*     margin-top: -187px; */
+    order: 5;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list7{
+    margin-top: -215px;
+    order: 4;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.meMil .sub_artist_cont_list8{
+    margin-top: -103px;
+    order: 3;
+}
+/*메밀작가*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list4{
+    margin-top: -45px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list6{
+    margin-top: -45px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list7{
+    margin-top: 2px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list8{
+    margin-top: -40px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list9{
+    margin-top: -15px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list10{
+    margin-top: -22px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.nolZagom .sub_artist_cont_list12{
+    margin-top: -90px;
+}
+/*놀자곰*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list1{
+    order:0;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list2{
+    order:1;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list3{
+    order:2;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list4{
+    order:8;
+    margin-top: -105px;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list5{
+    order:5;
+    margin-top: -130px;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list6{
+    margin-top: 0px;
+    order:7;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list7{
+    margin-top: -5px;
+    order:9;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list8{
+    order:4;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list9{
+    margin-top: -147px;
+    order:6;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list10{
+    margin-top: -28px;
+    order:3;
+}
+#sub_artist .sub_artist_wrap .sub_artist_contents.pingGoghe .sub_artist_cont_list11{
+    order:10;
+    margin-top: -0px;
+}
+/*핑고헤작가*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list4{
+    margin-top: -1px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list5{
+    margin-top: -70px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list6{
+    margin-top: -35px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list7{
+    margin-top: 0px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list8{
+    margin-top: -70px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list9{
+    margin-top: -15px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list10{
+    margin-top: 0;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list11{
+    margin-top: -2px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.seungHoon .sub_artist_cont_list12{
+    margin-top: -45px;
+}
+/*이승훈작가*/
+
+
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.yangChigi .sub_artist_cont_list4{
+    margin-top: -70px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.yangChigi .sub_artist_cont_list6{
+    margin-top: -70px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.yangChigi .sub_artist_cont_list7{
+    margin-top: -75px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.yangChigi .sub_artist_cont_list9{
+    margin-top: -170px;
+}
+
+#sub_artist .sub_artist_wrap .sub_artist_contents.yangChigi .sub_artist_cont_list10{
+    margin-top: -75px;
+}
+/*양치기작가*/
+

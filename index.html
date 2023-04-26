@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>955</title>
+
+    <!--meta-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+      
+      <!--bootstrap-->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+      
+      <!--css-->
+	    <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/moblie.css">
+      
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+      <!--js-->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+      
+    <!--favicon--->
+      <link href="favicon.ico" rel="icon">
+      <link href="favicon.ico" rel="apple-touch-icon">
+
+
+  </head>
+
+
+
+  <body>
+
+
+    <header>
+
+      <div class="hd_all">
+
+        <hgroup>
+
+          <a href="index.html"><h1><img src="img/h_logo.png" alt="logo"></h1></a>
+
+        </hgroup>
+
+
+        <nav class="pc_menu">
+          <ul>
+
+            <li><a href="business.html">Business</a></li>
+            <li><a href="client.html">Client</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </nav>
+
+
+        <!--반응형-->
+
+        <div class="m_menu_button">
+
+          <a href="#" class="menu-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+  
+        </div>
+
+
+          <!--반응형 js-->
+       <script type="text/javascript">
+
+        $(function () {
+          $(".menu-trigger").click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('active-' + 1);
+          });
+        });
+
+      </script>
+
+        <nav class="m_menu">
+
+          <ul>
+
+            <li><a href="business.html">Business</a></li>
+            <li><a href="client.html">Client</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+
+        </nav>
+
+             <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".m_menu_button").click(function () {
+            $(".m_menu").animate({ height: "toggle" }, 250);
+          });
+        });
+
+      </script>
+
+      </div>
+
+    </header>
+
+
+    <main>
+
+      <section id="home">
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="main_video">
+                <video autoplay muted loop playsinline>
+                  <source src="video/main_video1.mp4" type="video/mp4">
+                </video>
+                <div class="video_wrap">
+                  <div class="video_wrap_contents">
+                    <div class="video_wrap_cont_left">
+                      <h2>[Original Story by 그림왕양치기]</h2>
+                      <p>title / date</p>
+                    </div>
+                    <div class="video_wrap_cont_right">
+                      <a href="./sub/sub_idea_gallery.html"><img src="img/idea_gallery_btn.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="main_video">
+                <video autoplay muted loop playsinline>
+                  <source src="video/main_video2.mp4" type="video/mp4">
+                </video>
+                <div class="video_wrap">
+                  <div class="video_wrap_contents">
+                    <div class="video_wrap_cont_left">
+                      <h2>[그림왕양치기 X 메리츠화재]</h2>
+                      <p>title / date</p>
+                    </div>
+                    <div class="video_wrap_cont_right">
+                      <a href="./sub/sub_idea_gallery.html"><img src="img/idea_gallery_btn.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--            <div class="swiper-slide">
+              <div class="main_video">
+                <video autoplay muted loop playsinline>
+                  <source src="video/main_video3.mp4" type="video/mp4">
+                </video>
+                <div class="video_wrap">
+                  <div class="video_wrap_contents container">
+                    <div class="video_wrap_cont_left">
+                      <h2>[그림왕양치기 X 정관장]</h2>
+                      <p>title / date</p>
+                    </div>
+                    <div class="video_wrap_cont_right">
+                      <a href="idea_gallery.html"><img src="img/idea_gallery_btn.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </section>
+
+
+
+    </main>
+
+
+
+    <script src="js/swiper.js"></script>
+
+  </body>
