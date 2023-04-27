@@ -473,7 +473,7 @@
   }
 
   #artist .artist_wrap .artist_content{
-    grid-template-rows: repeat(2, 385px);
+    grid-template-rows: repeat(1, auto);
   }
 
   #artist .artist_wrap .artist_content .item .artist_cont_txt{
