@@ -201,7 +201,7 @@
     }
 
     #artist .artist_wrap .artist_content{
-      grid-template-rows: repeat(2, 340px);
+      grid-template-rows: repeat(4, 340px);
     }
 
     #artist .artist_wrap .artist_content .item .artist_cont_txt{
@@ -342,7 +342,7 @@
     /*artist*/
 
     #artist .artist_wrap .artist_content{
-      grid-template-rows: repeat(2, 245px);
+      grid-template-rows: repeat(4, 245px);
     }
 
     #artist .artist_wrap .artist_content .item .artist_cont_txt{
