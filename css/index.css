@@ -800,48 +800,6 @@ hgroup a{
   color: #fff;
 }
 
-/* #artist .artist_wrap .artist_content{
-  width: 100%;
-  margin-top: 70px;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_up{
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_up .artist_cont_up_left{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_up .artist_cont_up_right{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_down{
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  margin: -45px auto 0;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_down .artist_cont_down_left{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-
-#artist .artist_wrap .artist_content .artist_cont_down .artist_cont_down_right{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-} */
 
 #artist .artist_wrap .artist_content{
   margin: 80px auto 0;
