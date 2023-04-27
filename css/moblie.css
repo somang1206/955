@@ -58,6 +58,10 @@
     border-radius: 5px;
   }
 
+  #client .client_wrap .client_cont_list .client_cont_list_title.client_ohter {
+    border-radius: 5px;
+  }
+
   #client .client_wrap .client_cont_list .client_cont_list_company{
     width: 100%;
   }

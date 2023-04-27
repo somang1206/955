@@ -778,6 +778,7 @@ hgroup a{
 
 #client .client_wrap .client_cont_list .client_cont_list_title.client_ohter {
   padding: 1.6% 0;
+  border-radius: 5px 5px 5px 60px;
 }
 
 
