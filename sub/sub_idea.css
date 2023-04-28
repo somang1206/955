@@ -65,6 +65,7 @@
 
 .sub_idea_imgBox1 {
     height: 420px !important;
+    order: 1;
 }
 
 .sub_idea_imgBox1 .idea_imgBox_txt{
@@ -73,6 +74,7 @@
 
 .sub_idea_imgBox2{
     height: 247px !important;
+    order: 2;
 }
 
 .sub_idea_imgBox2 .idea_imgBox_txt{
@@ -81,6 +83,7 @@
 
 .sub_idea_imgBox3{
     height: 369px !important;
+    order: 3;
 }
 
 .sub_idea_imgBox3 .idea_imgBox_txt{
@@ -89,6 +92,7 @@
 
 .sub_idea_imgBox4{
     height: 568px !important;
+    order: 4;
 }
 
 .sub_idea_imgBox4 .idea_imgBox_txt{
@@ -98,6 +102,7 @@
 .sub_idea_imgBox5{
     height: 594px !important;
     margin-top: -145px;
+    order: 5;
 }
 
 .sub_idea_imgBox5 .idea_imgBox_txt{
@@ -107,6 +112,7 @@
 .sub_idea_imgBox6{
     height: 420px !important;
     margin-top: -320px;
+    order: 6;
 }
 
 .sub_idea_imgBox6 .idea_imgBox_txt{
@@ -116,6 +122,7 @@
 .sub_idea_imgBox7{
     height: 235px !important;
     margin-top: -195px;
+    order: 7;
 }
 
 .sub_idea_imgBox7 .idea_imgBox_txt{
@@ -124,6 +131,7 @@
 
 .sub_idea_imgBox8{
     height: 420px !important;
+    order: 8;
 }
 
 .sub_idea_imgBox8 .idea_imgBox_txt{
@@ -132,6 +140,7 @@
 
 .sub_idea_imgBox9{
     height: 300px !important;
+    order: 9;
 }
 
 .sub_idea_imgBox9 .idea_imgBox_txt{
@@ -141,6 +150,7 @@
 .sub_idea_imgBox10{
     height: 298px !important;
     margin-top: -345px;
+    order: 10;
 }
 
 .sub_idea_imgBox10 .idea_imgBox_txt{
@@ -150,6 +160,7 @@
 .sub_idea_imgBox11{
     height: 586px !important;
     margin-top: -410px;
+    order: 11;
 }
 
 .sub_idea_imgBox11 .idea_imgBox_txt{
@@ -159,6 +170,7 @@
 .sub_idea_imgBox12{
     height: 532px !important;
     margin-top: -25px;
+    order: 12;
 }
 
 .sub_idea_imgBox12 .idea_imgBox_txt{
@@ -168,6 +180,7 @@
 .sub_idea_imgBox13{
     height: 596px !important;
     margin-top: -200px;
+    order: 13;
 }
 
 .sub_idea_imgBox13 .idea_imgBox_txt{
@@ -177,6 +190,7 @@
 .sub_idea_imgBox14{
     height: 416px !important;
     margin-top: -550px;
+    order: 14;
 }
 
 .sub_idea_imgBox14 .idea_imgBox_txt{
@@ -186,6 +200,7 @@
 .sub_idea_imgBox15{
     height: 415px !important;
     margin-top: -330px;
+    order: 15;
 }
 
 .sub_idea_imgBox15 .idea_imgBox_txt{
@@ -194,6 +209,7 @@
 
 .sub_idea_imgBox16{
     height: 420px !important;
+    order: 16;
 }
 
 .sub_idea_imgBox16 .idea_imgBox_txt{
@@ -203,6 +219,7 @@
 .sub_idea_imgBox17{
     height: 326px !important;
     margin-top: -20px;
+    order: 17;
 }
 
 .sub_idea_imgBox17 .idea_imgBox_txt{
@@ -212,6 +229,7 @@
 .sub_idea_imgBox18{
     height: 420px !important;
     margin-top: -550px;
+    order: 18;
 }
 
 .sub_idea_imgBox18 .idea_imgBox_txt{
@@ -221,6 +239,7 @@
 .sub_idea_imgBox19{
     height: 420px !important;
     margin-top: -330px;
+    order: 19;
 }
 
 .sub_idea_imgBox19 .idea_imgBox_txt{
@@ -229,6 +248,7 @@
 
 .sub_idea_imgBox20{
     height: 420px !important;
+    order: 20;
 }
 
 .sub_idea_imgBox20 .idea_imgBox_txt{
@@ -238,43 +258,69 @@
 .sub_idea_imgBox21{
     height: 266px !important;
     margin-top: -110px;
+    order: 21;
 }
 
 .sub_idea_imgBox21 .idea_imgBox_txt{
     padding: 48% 0 0 0;
 }
 
-.sub_idea_imgBox22{
-    height: 289px !important;
+.sub_idea_imgBox22 {
+    height: 418px !important;
     margin-top: -545px;
+    order: 22;
 }
 
 .sub_idea_imgBox22 .idea_imgBox_txt{
-    padding: 53% 0 0 0;
+    padding: 83% 0 0 0;
 }
 
 .sub_idea_imgBox23{
-    height: 451px !important;
+    height: 450px !important;
     margin-top: -325px;
+    order: 23;
 }
 
-.sub_idea_imgBox23 .idea_imgBox_txt{
+.sub_idea_imgBox23 .idea_imgBox_txt {
     padding: 92% 0 0 0;
 }
 
 .sub_idea_imgBox24{
-    height: 490px !important;
+    height: 420px !important;
+    order: 24;
 }
 
-.sub_idea_imgBox24 .idea_imgBox_txt{
-    padding: 100% 0 0 0;
+.sub_idea_imgBox24 .idea_imgBox_txt {
+    padding: 84% 0 0 0;
 }
 
-.sub_idea_imgBox25{
-    height: 287px !important;
-    margin-top: -330px;
+.sub_idea_imgBox25 {
+    height: 247px !important;
+    margin-top: -261px;
+    order: 25;
 }
 
-.sub_idea_imgBox25 .idea_imgBox_txt{
-    padding: 53% 0 0 0;
+.sub_idea_imgBox25 .idea_imgBox_txt {
+    padding: 43% 0 0 0;
 }
+
+.sub_idea_imgBox26 {
+    height: 531px !important;
+    margin-top: -545px;
+    order: 26;
+}
+
+.sub_idea_imgBox26 .idea_imgBox_txt {
+    padding: 110% 0 0 0;
+}
+
+.sub_idea_imgBox27 {
+    height: 276px !important;
+    margin-top: -291px;
+    order: 27;
+}
+
+.sub_idea_imgBox27 .idea_imgBox_txt {
+    padding: 50% 0 0 0;
+}
+

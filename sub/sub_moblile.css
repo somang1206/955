@@ -215,23 +215,39 @@
     }
     
     .sub_idea_imgBox24 {
-        height: 294px !important;
+        height: 250px !important;
     }
     
     .sub_idea_imgBox24 .idea_imgBox_txt {
-        padding: 93% 0 0 0;
+        padding: 75% 0 0 0;
     }
     
     .sub_idea_imgBox25 {
         height: 171px !important;
-        margin-top: -214px;
+        margin-top: -170px;
     }
     
     .sub_idea_imgBox25 .idea_imgBox_txt {
         padding: 43% 0 0 0;
     }
     
+    .sub_idea_imgBox26 {
+        height: 370px !important;
+        margin-top: -410px;
+    }
 
+    .sub_idea_imgBox26 .idea_imgBox_txt {
+        padding: 123% 0 0 0;
+    }
+
+    .sub_idea_imgBox27 {
+        height: 217px !important;
+        margin-top: -177px;
+    }
+
+    .sub_idea_imgBox27 .idea_imgBox_txt {
+        padding: 63% 0 0 0;
+    }
 
 
     /*겔부작가*/
@@ -641,6 +657,15 @@
         margin-top: -133px;
     }
 
+    .sub_idea_imgBox26 {
+        height: 187px !important;
+        margin-top: 6px;
+    }
+
+    .sub_idea_imgBox26 .idea_imgBox_txt {
+        padding: 51% 0 0 0;
+    }
+
     /*sub_겔부*/
 
     #sub_artist .sub_artist_wrap{
@@ -1018,8 +1043,18 @@
         margin-top: 5px;
     }
 
+    .sub_idea_imgBox26 {
+        height: 369px !important;
+        margin-top: -43px;
+    }
 
+    .sub_idea_imgBox26 .idea_imgBox_txt {
+        padding: 123% 0 0 0;
+    }
 
+    .sub_idea_imgBox27 {
+        margin-top: -145px;
+    }
 
     /*겔부*/
 

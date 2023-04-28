@@ -355,7 +355,8 @@ hgroup a{
 }
 
 .video_wrap .video_wrap_contents .video_wrap_cont_right a{
-  width: 100%;
+  width: 55px;
+  height: 55px;
   display: block;
 }
 
@@ -364,7 +365,7 @@ hgroup a{
 }
 
 .video_wrap .video_wrap_contents .video_wrap_cont_right a img{
-  max-width: 100%;
+  width: 100%;
   transition: all 0.7s ease-in-out;
 }
 
